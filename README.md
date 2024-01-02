@@ -53,33 +53,6 @@ form.addEventListener('keyup', () => {
 });
 ```
 
-#### Empty Array
-
-- displayProducts()
-- check length of filteredProducts
-- if list.length < 1
-- set productsContainer = some text
-
-#### Display Filter Buttons
-
-- select .companies
-- create function displayButtons
-- get only unique companies (set)
-- iterate over results
-- return button with data-id
-- set .companies innerHTML equal to result
-
-#### Filter Based on Company
-
-- add event listener on .companies
-- look for event.target
-- if contains .company-btn proceed
-  - if 'all' return all products (copy)
-  - else filter based on company value
-- set search value ''
-- call displayProducts
-
-
 
 
 https://ayyadaslam.github.io/Filter-Option-/
